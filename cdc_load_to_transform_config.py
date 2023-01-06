@@ -1,0 +1,13 @@
+user="SF_API_2"
+account="ypb40014.us-east-1"
+#account='lma03524.us-east-1'
+warehouse="TRANSFORM_WH"
+database="REDSHELF"
+role="ELT"
+target_schema='TRANSFORM'
+source_schema="LOAD"
+key="keys/rsa_key.p8"
+measure=True
+offset=-200
+period="Day" 
+display_progress=True
